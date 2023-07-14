@@ -61,7 +61,7 @@ module.exports = [
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'TronWeb.node.js',
-            libraryTarget: 'commonjs2',
+            libraryTarget: 'commonjs-module',
             libraryExport: 'default'
         },
         module: {
