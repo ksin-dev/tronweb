@@ -9,7 +9,7 @@
     ],
     "scripts": {
         "prepare": "npm run build",
-        "postinstall": "npm run install && npm run build",
+        "postinstall": "npm install && npm run build",
         "build": "npm run clean && webpack --config webpack.config.js --progress --color",
         "build:dev": "NODE_ENV=development npm run build",
         "clean": "rimraf dist",
