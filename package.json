@@ -2,7 +2,7 @@
     "name": "tronweb",
     "version": "5.3.0",
     "description": "JavaScript SDK that encapsulates the TRON HTTP API",
-    "main": "dist/TronWeb.node.js",
+    "main": "src/index.js",
     "keywords": [
         "TRON",
         "tronweb"
@@ -92,5 +92,9 @@
     ],
     "homepage": "https://tronweb.network",
     "license": "MIT",
-    "repository": "https://github.com/tronprotocol/tronweb.git"
+    "repository": "https://github.com/tronprotocol/tronweb.git",
+    "volta": {
+        "node": "16.14.0",
+        "pnpm": "8.1.1"
+    }
 }
